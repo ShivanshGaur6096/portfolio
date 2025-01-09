@@ -1,25 +1,5 @@
 import React from "react";
-
-const experiences = [
-  {
-    logo: "assets/experience-logos/blackNgreen-logo.png",
-    title: "Tech Mahindra",
-    position: "Software Engineer",
-    period: "Nov, 2023 - Present",
-  },
-  {
-    logo: "assets/experience-logos/tech-mahindra.png",
-    title: "Tech Mahindra",
-    position: "Software Engineer",
-    period: "Feb, 2021 - Nov, 2023",
-  },
-  {
-    logo: "assets/experience-logos/tech-mahindra.png",
-    title: "Tech Mahindra",
-    position: "Software Engineer, Trainee",
-    period: "Nov, 2020 - Feb, 2021",
-  },
-];
+import { experiences } from "../data";
 
 const Experience = () => (
   <section id="experience">
