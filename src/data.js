@@ -48,7 +48,7 @@ export const skillsData = {
   export const projects = [
     {
       name: "MagicCall",
-      logo: "assets/project-images/magiccall/magiccall-banner.png",
+      logo: `${process.env.PUBLIC_URL}/assets/project-images/magiccall/magiccall-banner.png`,
       description: `
         The era of boring conversations is over, so add some spice to your calls.
         Now decide how you want to be heard. Change your voice on call in real-time
@@ -67,7 +67,7 @@ export const skillsData = {
     },
     {
       name: "Bell",
-      logo: "assets/project-images/bell/bell-logo.png",
+      logo: `${process.env.PUBLIC_URL}/assets/project-images/bell/bell-logo.png`,
       description: `
         Collaborated on enhancement efforts for Bell Canada's flagship applications.
         Improved user engagement through advanced technologies and inclusive design.
@@ -79,7 +79,7 @@ export const skillsData = {
     },
     {
       name: "Virgin Plus",
-      logo: "assets/project-images/virgin-plus/virgin-plus-logo.png",
+      logo: `${process.env.PUBLIC_URL}/assets/project-images/virgin-plus/virgin-plus-logo.png`,
       description: `
         Revolutionized user engagement for Virgin Plus apps by implementing dynamic Shop Tabs
         and cutting-edge GraphQL-based APIs for seamless data manipulation.
@@ -91,7 +91,7 @@ export const skillsData = {
     },
     {
       name: "Lucky Mobile",
-      logo: "assets/project-images/lucky-mobile/lucky-mobile-logo.png",
+      logo: `${process.env.PUBLIC_URL}/assets/project-images/lucky-mobile/lucky-mobile-logo.png`,
       description: `
         Site URL: <a href="https://www.luckymobile.ca/" target="_blank">Lucky Mobile Website</a>
       `,
@@ -100,7 +100,7 @@ export const skillsData = {
     },
     {
       name: "PC Mobile",
-      logo: "assets/project-images/pc-mobile/pc-mobile-logo.png",
+      logo: `${process.env.PUBLIC_URL}/assets/project-images/pc-mobile/pc-mobile-logo.png`,
       description: `
         Site URL: <a href="https://www.pcmobile.ca/en/" target="_blank">PC Mobile Website</a>
       `,
@@ -112,19 +112,19 @@ export const skillsData = {
   // Experience data
   export const experiences = [
     {
-      logo: "assets/experience-logos/blackNgreen-logo.png",
+      logo: `${process.env.PUBLIC_URL}/assets/experience-logos/blackNgreen-logo.png`,
       title: "Tech Mahindra",
       position: "Software Engineer",
       period: "Nov, 2023 - Present",
     },
     {
-      logo: "assets/experience-logos/tech-mahindra.png",
+      logo: `${process.env.PUBLIC_URL}/assets/experience-logos/tech-mahindra.png`,
       title: "Tech Mahindra",
       position: "Software Engineer",
       period: "Feb, 2021 - Nov, 2023",
     },
     {
-      logo: "assets/experience-logos/tech-mahindra.png",
+      logo: `${process.env.PUBLIC_URL}/assets/experience-logos/tech-mahindra.png`,
       title: "Tech Mahindra",
       position: "Software Engineer, Trainee",
       period: "Nov, 2020 - Feb, 2021",
@@ -134,19 +134,19 @@ export const skillsData = {
   // Education data
   export const educations = [
     {
-      logo: "assets/experience-logos/amity_university.png",
+      logo: `${process.env.PUBLIC_URL}/assets/experience-logos/amity_university.png`,
       title: "Amity University, Noida",
       degree: "B.Tech",
       period: "2016-2020",
     },
     {
-      logo: "assets/experience-logos/radiant-stars-english-school.png",
+      logo: `${process.env.PUBLIC_URL}/assets/experience-logos/radiant-stars-english-school.png`,
       title: "Radiant Stars English School, Aligarh",
       degree: "12th",
       period: "2014-2016",
     },
     {
-      logo: "assets/experience-logos/radiant-stars-english-school.png",
+      logo: `${process.env.PUBLIC_URL}/assets/experience-logos/radiant-stars-english-school.png`,
       title: "Radiant Stars English School, Aligarh",
       degree: "10th",
       period: "2012-2014",
@@ -156,17 +156,17 @@ export const skillsData = {
   // Achievements data
   export const achievements = [
     {
-      badge: "assets/skill-images/safe6_badge.png",
+      badge: `${process.env.PUBLIC_URL}/assets/skill-images/safe6_badge.png`,
       title: "SAFe 6 Practitioner",
       details: "Certificate ID: xxxxxxxxxxx",
     },
     {
-      badge: "assets/skill-images/bravo_award.png",
+      badge: `${process.env.PUBLIC_URL}/assets/skill-images/bravo_award.png`,
       title: "Bravo Award",
       details: "Date: 03/2022",
     },
     {
-      badge: "assets/skill-images/bravo_award.png",
+      badge: `${process.env.PUBLIC_URL}/assets/skill-images/bravo_award.png`,
       title: "Bravo Award",
       details: "Date: 09/2023",
     },

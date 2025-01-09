@@ -120,13 +120,17 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     margin-bottom: 20px;
 }
 
 .filtered-skills {
+    /* list-style-type: none; /* Remove bullets */
+    list-style-position: inside;
     padding: 0;
-    margin: 20px 0;
+    margin: 20px 0 0;
+    padding: 0;
+    text-align: left; /*Center align the list */
 }
 
 .skill img {
@@ -145,9 +149,12 @@ section {
 }
 
 .filtered-skills li {
-    font-size: 14px;
+    /* display: inline-block; /* Arrange items horizontally */
+    margin: 5px 10px; /* Add spacing between items */
+    font-size: 16px;
+    font-weight: bold;
     color: #333;
-    text-align: left;
+    text-align: center;
 }
 
 /* More button in list */
@@ -317,3 +324,58 @@ footer {
     background: #333;
     color: white;
 }
+
+.full-skills-view, .project-modal {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 80%;
+    z-index: 1000;
+  }
+
+
+.full-skills-view h2, .project-modal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .full-skills-view ul, .project-modal .project-carousel {
+    margin: 10px 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .full-skills-view ul li, .project-modal .project-carousel img {
+    margin: 5px 0;
+  }
+
+  .project-modal .project-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+  
+  .project-modal .project-carousel img {
+    width: 150px;
+    border-radius: 5px;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+  }

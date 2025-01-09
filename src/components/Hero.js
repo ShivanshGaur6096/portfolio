@@ -1,9 +1,10 @@
 import React from "react";
+import profile from '../assets/profile.png'
 
 const Hero = () => (
   <header id="hero">
     <div className="container">
-      <img src="assets/profile.png" alt="Shivansh Gaur" className="profile-pic" />
+      <img src={profile} alt="Shivansh Gaur" className="profile-pic" />
       <h1>
         Hi, I'm <span>Shivansh Gaur</span>
       </h1>

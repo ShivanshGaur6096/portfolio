@@ -1,22 +1,5 @@
 import React from "react";
-
-const achievements = [
-  {
-    badge: "assets/skill-images/safe6_badge.png",
-    title: "SAFe 6 Practitioner",
-    details: "Certificate ID: xxxxxxxxxxx",
-  },
-  {
-    badge: "assets/skill-images/bravo_award.png",
-    title: "Bravo Award",
-    details: "Date: 03/2022",
-  },
-  {
-    badge: "assets/skill-images/bravo_award.png",
-    title: "Bravo Award",
-    details: "Date: 09/2023",
-  },
-];
+import { achievements } from "../data";
 
 const Achievements = () => (
   <section id="achievements">
